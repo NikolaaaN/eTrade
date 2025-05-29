@@ -1,0 +1,6 @@
+{
+    "dotnet.defaultSolution": "backend.slnx",
+    "files.exclude": {
+     "**/.git": false
+}
+}
