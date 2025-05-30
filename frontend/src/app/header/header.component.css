@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: white; /* dark gray */
+  color: #1f2937;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login-link {
+  color: #1f2937;
+  font-size: large;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.brand {
+  font-size: 3rem;
+  color: #040263; /* blue-500 */
+  margin-right: 2rem;
+  letter-spacing: 0.5px;
+}
+
+
